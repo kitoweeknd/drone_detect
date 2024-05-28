@@ -8,8 +8,8 @@ from scipy.signal import stft, windows
 time_duration = 0.1  # 预设时间窗的长度(关键参数)，决定x尺度
 fs = 100e6  # 采样带宽要和采样设备匹配,实验室设备的采样带宽一般为15MHZ，原论文中的最大采样带宽为100MHZ，采样带宽决定y轴尺度
 slice_point = int(fs * time_duration)
-fly_name = 'inspire2'  # 预设无人机的名称
-distance = ''
+fly_name = 'Fubuta'  # 预设无人机的名称
+distance = '111'
 coloar_bar = False
 
 

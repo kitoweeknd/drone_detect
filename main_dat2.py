@@ -206,9 +206,10 @@ def inference(file_path, res_path, fig_save_path):
                     plot_one_box(
                         xyxy, showimg, label=label, color=colors[int(cls)], line_thickness=2)
         # Process detections
-        if 'Air2S' in res:
-            print('检测到Air2S')
-            s = "find Air2S!"  # 替换为您的语音文本
+        # Process detections
+        if 'MavicAir2S' in res:
+            print('检测到MavicAir2S')
+            s = "find MavicAir2S!"  # 替换为您的语音文本
         elif 'AVATA' in res:
             print('检测到AVATA')
             s = "find AVATA!"  # 替换为您的语音文本
@@ -220,10 +221,10 @@ def inference(file_path, res_path, fig_save_path):
             s = "find DJi!"  # 替换为您的语音文本'
         elif 'FrskyX20' in res:
             print('检测到Frsky')
-            s = "find FrskyX20!"  # 替换为您的语音文本
+            s = "find Frsky_X20!"  # 替换为您的语音文本
         elif 'Fubuta' in res:
-            print('检测到Fubuta')
-            s = "find Fubuta!"  # 替换为您的语音文本
+            print('检测到Futaba_T14SG')
+            s = "find Futaba_T14SG!"  # 替换为您的语音文本
         elif 'Inspire2' in res:
             print('检测到Inspire2')
             s = "find Inspire2!"  # 替换为您的语音文本
